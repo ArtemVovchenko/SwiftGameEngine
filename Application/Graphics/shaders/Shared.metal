@@ -1,10 +1,3 @@
-//
-//  Shared.metal
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 20.02.2021.
-//
-
 #include <metal_stdlib>
 using namespace metal;
  

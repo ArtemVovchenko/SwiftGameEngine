@@ -1,10 +1,3 @@
-//
-//  Cube.swift
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 18.02.2021.
-//
-
 import MetalKit
 
 class Cube: GameObject {

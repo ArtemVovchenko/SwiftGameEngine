@@ -259,8 +259,8 @@
 		AC5FA67A25E4652F00C73A36 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				AC5FA67B25E4652F00C73A36 /* Entities.swift */,
 				AC5FA67C25E4652F00C73A36 /* libraries */,
+				AC5FA67B25E4652F00C73A36 /* Entities.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -312,11 +312,11 @@
 			isa = PBXGroup;
 			children = (
 				AC5FA69025E4653200C73A36 /* types */,
-				AC5FA69425E4653200C73A36 /* Engine.swift */,
-				AC5FA69925E4653200C73A36 /* Preferences.swift */,
-				AC5FA69A25E4653200C73A36 /* GameTime.swift */,
 				AC5FA69B25E4653200C73A36 /* utils */,
 				AC5FA69D25E4653200C73A36 /* maths */,
+				AC5FA69425E4653200C73A36 /* Engine.swift */,
+				AC5FA69A25E4653200C73A36 /* GameTime.swift */,
+				AC5FA69925E4653200C73A36 /* Preferences.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -380,12 +380,12 @@
 		AC5FA6A625E4653300C73A36 /* game objects */ = {
 			isa = PBXGroup;
 			children = (
-				AC5FA6A725E4653300C73A36 /* CubeCollection.swift */,
 				AC5FA6A825E4653300C73A36 /* Pointer.swift */,
 				AC5FA6A925E4653300C73A36 /* Cube.swift */,
-				AC5FA6AA25E4653300C73A36 /* GameObject.swift */,
-				AC5FA6AB25E4653300C73A36 /* InstancedGameObject.swift */,
 				AC5FA6AC25E4653300C73A36 /* Quad.swift */,
+				AC5FA6A725E4653300C73A36 /* CubeCollection.swift */,
+				AC5FA6AB25E4653300C73A36 /* InstancedGameObject.swift */,
+				AC5FA6AA25E4653300C73A36 /* GameObject.swift */,
 			);
 			path = "game objects";
 			sourceTree = "<group>";

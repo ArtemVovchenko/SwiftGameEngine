@@ -1,15 +1,7 @@
-//
-//  InstancedShaders.metal
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 20.02.2021.
-//
-
 #include <metal_stdlib>
 #include "Shared.metal"
 using namespace metal;
 
-// I didn't understand what is [[ instance_id ]] exactly
 vertex RasterizerData instanced_vertex_shader(const VertexIn vIn [[ stage_in ]],
                                              constant SceneConstants &sceneConstants [[ buffer(1) ]],
                                              constant ModelConstants *modelConstants [[ buffer(2) ]],

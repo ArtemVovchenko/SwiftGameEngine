@@ -1,10 +1,3 @@
-//
-//  RenderPipelineStateLibrary.swift
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 20.02.2021.
-//
-
 import MetalKit
 
 enum RenderPipelineStateTypes {

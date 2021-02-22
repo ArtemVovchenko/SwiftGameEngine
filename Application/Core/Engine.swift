@@ -1,9 +1,3 @@
-//
-//  Engine.swift
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 16.02.2021.
-//
 
 import MetalKit
 

@@ -1,10 +1,3 @@
-//
-//  SamplerStateLivrary.swift
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 22.02.2021.
-//
-
 import MetalKit
 
 enum SamplerStateTypes {

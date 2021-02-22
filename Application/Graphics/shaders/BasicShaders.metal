@@ -1,10 +1,3 @@
-//
-//  Shaders.metal
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 15.02.2021.
-//
-
 #include <metal_stdlib>
 #include "Shared.metal"
 using namespace metal;

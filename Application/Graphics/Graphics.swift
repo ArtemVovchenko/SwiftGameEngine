@@ -1,10 +1,3 @@
-//
-//  Graphics.swift
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 19.02.2021.
-//
-
 class Graphics {
     private static var _vertexShaderLibrary: VertexShaderLibrary!
     public static var VertexShaders: VertexShaderLibrary { return self._vertexShaderLibrary }

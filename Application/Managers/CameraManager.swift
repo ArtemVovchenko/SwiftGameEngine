@@ -1,10 +1,3 @@
-//
-//  CameraManager.swift
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 18.02.2021.
-//
-
 class CameraManager {
     
     private var _cameras:[CameraTypes: Camera] = [:]

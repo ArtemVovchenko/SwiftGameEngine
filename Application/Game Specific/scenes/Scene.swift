@@ -1,10 +1,3 @@
-//
-//  Scene.swift
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 17.02.2021.
-//
-
 import MetalKit
 
 class Scene: Node {

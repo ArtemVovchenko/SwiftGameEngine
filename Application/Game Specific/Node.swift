@@ -1,14 +1,7 @@
-//
-//  Node.swift
-//  Simple Game Engine
-//
-//  Created by Artem Vovchenko on 17.02.2021.
-//
-
 import MetalKit
 
 class Node {
-    private var _name:String = "Node"
+    private var _name: String = "Node"
     private var _id: String!
     
     private var _position: SIMD3<Float> = SIMD3<Float>(repeating: 0)
