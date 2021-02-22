@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SwiftGameEngine
+//  macOSSwiftGameEngine
 //
 //  Created by Artem Vovchenko on 23.02.2021.
 //
@@ -14,7 +14,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        let GPUDevice: MTLDevice? = MTLCreateSystemDefaultDevice()
+        Engine.Ignite(device: GPUDevice!)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -30,7 +31,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "SwiftGameEngine")
+        let container = NSPersistentContainer(name: "macOSSwiftGameEngine")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error {
                 // Replace this implementation with code to handle the error appropriately.

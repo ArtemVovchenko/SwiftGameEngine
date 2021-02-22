@@ -1,18 +1,18 @@
 //
 //  ViewController.swift
-//  SwiftGameEngine
+//  macOSSwiftGameEngine
 //
 //  Created by Artem Vovchenko on 23.02.2021.
 //
 
 import Cocoa
+import MetalKit
 
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
     override var representedObject: Any? {
